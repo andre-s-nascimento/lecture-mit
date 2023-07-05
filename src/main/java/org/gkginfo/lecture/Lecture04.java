@@ -11,13 +11,13 @@ public class Lecture04 {
     example.returned();
     System.out.println("Rented? (should be false): " + example.isBorrowed());
 
-    Library firstLibrary = new Library("10 Main St.");
-    Library secondLibrary = new Library("228 Liberty St.");
+    Library firstLibrary = new Library("1010 Main St.");
+    Library secondLibrary = new Library("2048 Liberty St.");
 
-    firstLibrary.addBook(new Book("The Da Vinci Code"));
-    firstLibrary.addBook(new Book("Le Petit Prince"));
-    firstLibrary.addBook(new Book("A Tale of Two Cities"));
-    firstLibrary.addBook(new Book("The Lord of the Rings"));
+    firstLibrary.addBook(new Book("Clean Code"));
+    firstLibrary.addBook(new Book("Java Essential"));
+    firstLibrary.addBook(new Book("A Tale of Two Devs"));
+    firstLibrary.addBook(new Book("The Lord of the Bugs"));
 
     System.out.println("Library hours:");
     firstLibrary.printOpeningHours();
@@ -27,10 +27,10 @@ public class Lecture04 {
     secondLibrary.printAddress();
     System.out.println();
 
-    System.out.println("Borrowing The Lord of the Rings:");
-    firstLibrary.borrowBook("The Lord of the Rings");
-    firstLibrary.borrowBook("The Lord of the Rings");
-    secondLibrary.borrowBook("The Lord of the Rings");
+    System.out.println("Borrowing The Lord of the Bugs:");
+    firstLibrary.borrowBook("The Lord of the Bugs");
+    firstLibrary.borrowBook("The Lord of the Bugs");
+    secondLibrary.borrowBook("The Lord of the Bugs");
     System.out.println();
 
     System.out.println("Books available in the first library:");
@@ -40,8 +40,8 @@ public class Lecture04 {
     secondLibrary.printAvailableBooks();
     System.out.println();
 
-    System.out.println("Returning The Lord of the Rings:");
-    firstLibrary.returnBook("The Lord of the Rings");
+    System.out.println("Returning The Lord of the Bugs:");
+    firstLibrary.returnBook("The Lord of the Bugs");
     System.out.println();
 
     System.out.println("Books available in the first library:");

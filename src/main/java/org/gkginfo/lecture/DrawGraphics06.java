@@ -21,7 +21,6 @@ public class DrawGraphics06
     movers.get(3).setMovementVector(5, 1);
   }
 
-  /** Draw the contents of the window on surface. */
   public void draw(Graphics surface)
   {
     for(Mover06 shape : movers)

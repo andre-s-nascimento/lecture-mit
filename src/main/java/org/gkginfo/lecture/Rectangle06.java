@@ -10,7 +10,6 @@ public class Rectangle06 implements Sprite06 {
   private int height;
   private Color color;
 
-  /** Create a box that has dimensions width and height, filled with startColor. */
   public Rectangle06(int width, int height, Color color) {
     this.width = width;
     this.height = height;
@@ -18,7 +17,7 @@ public class Rectangle06 implements Sprite06 {
   }
 
   public void draw(Graphics surface, int x, int y) {
-    // Draw the object
+
     surface.setColor(color);
     surface.fillRect(x, y, width, height);
     surface.setColor(Color.BLACK);

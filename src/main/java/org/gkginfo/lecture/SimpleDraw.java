@@ -5,7 +5,6 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import javax.swing.JPanel;
 
-/** Displays a window and delegates drawing to DrawGraphics. */
 public class SimpleDraw extends JPanel implements Runnable {
   public static final int WIDTH = 300;
   public static final int HEIGHT = 300;
